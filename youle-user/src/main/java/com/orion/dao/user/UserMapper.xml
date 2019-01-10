@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.orion.dao.user.UserMapper" >
+
+    <select id="selectUserByName" resultType="com.orion.domain.User" parameterType="string">
+        SELECT * FROM  USER WHERE  NAME =#{name}
+    </select>
+    <select id="selectUserById" resultType="com.orion.domain.User" parameterType="integer">
+        SELECT  * FROM USER WHERE  ID = #{id}
+    </select>
+</mapper>
