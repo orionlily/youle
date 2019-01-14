@@ -35,4 +35,8 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<finalName>youle-controller</finalName>
+	</build>
 </project>
