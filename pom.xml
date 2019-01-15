@@ -132,11 +132,11 @@
 
     <modules>
         <module>youle-analysis</module>
-        <module>youle-controller</module>
         <module>youle-redis</module>
         <module>youle-user</module>
         <module>youle-product</module>
         <module>youle-order</module>
+        <module>youle-controller</module>
         <module>youle-commom-interface</module>
     </modules>
 
